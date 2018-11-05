@@ -1,0 +1,39 @@
+body {
+  background: #1e2440;
+  /* background: #fff; */
+  color: #f2efe2;
+  font-size: 16px;
+  /* font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive; */
+}
+.container {
+  position: relative;
+  width: 600px;
+  border: 1px solid #f2efe2;
+  background: #f2efe2;
+  padding: 0.2rem 1rem;
+  overflow: scroll;
+  margin-bottom: 30px;
+}
+#text-box {
+  overflow: scroll;
+  margin: auto;
+  color: #000;
+}
+.text-box:focus {
+  outline: none;
+}
+.text-box p {
+  /* border-bottom: 1px dotted black;
+  margin: 0px !important; */
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 85vw;
+    max-width: 85vw;
+  }
+.text-box {
+    max-height: 55vh;
+  }
+}
