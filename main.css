@@ -19,6 +19,8 @@ body {
   overflow: scroll;
   margin: auto;
   color: #000;
+  height: 40px;
+  overflow: scroll;
 }
 .text-box:focus {
   outline: none;
